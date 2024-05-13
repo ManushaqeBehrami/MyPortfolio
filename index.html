@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Manushaqe <span>Behrami</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="images/img.jpeg" alt="">
+        </div>
+
+        <div class="home-content">
+            <h1>Hi, I'm <span>Manushaqe</span></h1>
+            <h3 class="text-animation">I'm a <span>Software Engineer</span></h3>
+            <p class="info-text">Passionate and dedicated software engineer with a deep understanding of coding
+                principles and a commitment to excellence. Proficient in various programming languages and technologies,
+                with a proven track record of delivering high-quality software solutions. </p>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3 class="text-animation">I'm a <span>Software Engineer</span></h3>
+            <p class="info-text">Skilled in crafting elegant solutions to complex problems and adept at leveraging
+                creativity to drive innovation. Committed to continuous learning and growth in the ever-evolving field
+                of technology.Challenges are invitations to innovate, bugs opportunities to refine. It's a journey of
+                perpetual learning and evolution.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="about-img">
+            <img src="images/img.jpeg" alt="" />
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>BackEnd Development</h4>
+                    <p>Innovative Backend Developer proficient in Java, C#, JavaScript and Node.js, with extensive
+                        experience in MySQL and MongoDB databases. Skilled in designing and implementing scalable and
+                        efficient backend systems to support complex applications.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>FrontEnd Development</h4>
+                    <p>Dynamic Frontend Developer proficient in HTML, CSS, JavaScript and ReactJS. Experienced in
+                        crafting visually appealing and responsive user interfaces that enhance user experience. Skilled
+                        in utilizing modern frontend frameworks to create interactive and dynamic web applications. </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Fullstack Development</h4>
+                    <p>Fullstack Developer proficient in both frontend and backend technologies. Skilled in HTML, CSS,
+                        JavaScript, ReactJS for frontend development and Java, C#, JavaScript, NodeJS for backend
+                        development. Experienced in MySQL, MongoDB databases, RESTful APIs, and seamless
+                        frontend-backend integration.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>DevOps</h4>
+                    <p>Proactive DevOps Engineer proficient in automation, configuration management, and cloud
+                        technologies. Experienced in utilizing tools such as Docker, Kubernetes, Jenkins, and Terraform
+                        to streamline the deployment and management of applications. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">© Manushaqe Behrami | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
